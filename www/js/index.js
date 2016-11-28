@@ -45,13 +45,14 @@ if(localStorage.getItem(patch)){
                                 if(localStorage.getItem(patch)!=html){
                                         localStorage.setItem(patch, html);
                                         $("body").html(html);        
-                                },
+                                }
+                        }        ,
                         fail:function() {
                             $('#cargando').remove();    
                         }          
                         	
 
-                        }
+                        
                 });
         }
 }
