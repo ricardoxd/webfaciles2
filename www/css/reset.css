@@ -1,0 +1,242 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    border: 1px #989898 solid ;
+}
+button{
+    margin: 1px;
+    opacity: 0.8;
+  -moz-transition: all 0.5s ease 0s;
+
+}
+button:hover{opacity: 1;}
+
+/* tabla responsive*/
+
+* {margin:0;padding:0; border: 0 none; position: relative;}
+*, *:before, *:after {box-sizing: inherit;}
+html{
+  box-sizing: border-box;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+thead {
+  
+}
+th {
+}
+th:last-child {}
+tr:nth-child(even) {
+}
+td {
+    text-align: left;
+}
+td:last-child {
+  text-align: center;
+}
+@media only screen and (max-width:560px) {
+  table{
+    width: 98%;
+  }
+  thead {display: none;}
+  tr {border-bottom: 1px black solid;}
+  tr:last-child {border-bottom: 0 none;}
+  td {
+    display: block;
+  }
+  td:before {
+    content: attr(data-th) ':';
+    display: inline-block;
+    width: auto;
+    min-width: 45%;
+  }
+  td:last-child {text-align: left;}
+  td:nth-child(odd) {
+  }
+}
+
+
+[title]{
+        
+    }
+    
+    [title]:hover::after{
+        background: #333;
+        background: rgba(0,0,0,.8);
+        border-radius: 5px;
+        bottom: 26px;
+        color: #fff;
+        content: attr(title);
+        left: 20%;
+        padding: 5px 15px;
+        position: absolute;
+        z-index: 98;
+    }
+  
+
+    [title]:hover::before{
+        border: solid;
+        border-color: #333 transparent;
+        border-width: 6px 6px 0 6px;
+        bottom: 20px;
+        content: "";
+        
+        position: absolute;
+        z-index: 99;
+    }
+
+
+
+    input, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+/*
+Editor
+*/
+.boton-editor{
+  display: block;  
+cursor: pointer;
+color: #fff;
+background-color: #6496c8;
+border: none;
+margin-left: 4px;
+margin-right: 4px;
+padding: 1px;
+}
+.boton-editor:hover{
+background-color: #417cb8;
+  
+}
+.boton-editor:active{
+background-color: #417cb8;
+-webkit-box-shadow: 0 3px #27496d;
+-moz-box-shadow: 0 3px #27496d;
+box-shadow: 0 3px #27496d;
+  
+}
+
+lieditor,barraeditor{
+  display: block;
+}
+
+.opacar{
+  filter:alpha(opacity=70);
+-moz-opacity: 0.7;
+opacity: 0.7;
+}
