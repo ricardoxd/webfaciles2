@@ -31,6 +31,7 @@ if(localStorage.getItem(patch)){
 
 }
         if(localStorage.online=='true'){
+            $('body').append('<img id="cargando" src="img/spinner_black64.gif">');
                 $.ajax({
                         beforeSend: function(xhrObj){
                                 xhrObj.setRequestHeader("movil","true");
@@ -44,7 +45,10 @@ if(localStorage.getItem(patch)){
                                 if(localStorage.getItem(patch)!=html){
                                         localStorage.setItem(patch, html);
                                         $("body").html(html);        
-                                }  
+                                },
+                        fail:function() {
+                            $('#cargando').remove();    
+                        }          
                         	
 
                         }
