@@ -50,7 +50,7 @@
     <splash src="res/screen/windows/splashscreenphone.png" width="1152" height="1920"/>
 </platform>
  
-
+<preference name="ShowSplashScreenSpinner" value="false" />
 <preference name="SplashScreenDelay" value="5000" />
 <config-file platform="android" parent="/manifest">
    <application android:theme="@android:style/Theme.Light.NoTitleBar"></application>
