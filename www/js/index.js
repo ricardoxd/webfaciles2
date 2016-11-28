@@ -1,5 +1,6 @@
 
 function cargarUrl(url) {
+    $('body').append('<img id="cargando" src="img/spinner_black64.gif">');
 	url=url.replace("#/","");
 	if(url=='salir'){
                 localStorage.ingreso=false;
