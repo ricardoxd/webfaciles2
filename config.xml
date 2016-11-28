@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.symasy.webfaciles" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.symasy.webfaciles" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Web Facil Es</name>
     <description>
         App de gestion
@@ -52,5 +52,7 @@
  
 
 <preference name="SplashScreenDelay" value="5000" />
-
+<config-file platform="android" parent="/manifest" mode="merge">
+   <application android:theme="@android:style/Theme.NoTitleBar"></application>
+</config-file>
 </widget>
