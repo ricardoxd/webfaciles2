@@ -52,7 +52,7 @@
  
 
 <preference name="SplashScreenDelay" value="5000" />
-<config-file platform="android" parent="/manifest" mode="merge">
-   <application android:theme="@android:style/Theme.NoTitleBar"></application>
+<config-file platform="android" parent="/manifest">
+   <application android:theme="@android:style/Theme.Light.NoTitleBar"></application>
 </config-file>
 </widget>
