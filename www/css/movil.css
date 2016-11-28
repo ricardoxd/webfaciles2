@@ -1,0 +1,12 @@
+#logo{
+	width: 100%;
+text-align: center;
+font-size: 23px;
+margin-top: 16%;
+}
+#cargando{
+	font-size: 12px;
+}
+body{
+	background-color: #eaeaea;
+}
