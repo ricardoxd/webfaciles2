@@ -246,6 +246,8 @@ img {
 }
 a {
 	color:#404040;
+	margin:7px;
+	padding:7px;
 
 }
 hr {
@@ -257,6 +259,7 @@ article {
 li {
 	float:initial;
 	margin:7px;
+	padding:7px;
 
 }
 div {
@@ -475,7 +478,7 @@ img {
 }
 a {
 	color:#2c2c2c;
-	margin:7;
+	margin:7px;
 
 }
 hr {
