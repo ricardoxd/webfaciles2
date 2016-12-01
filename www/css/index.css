@@ -256,6 +256,7 @@ article {
 }
 li {
 	float:initial;
+	margin:7px;
 
 }
 div {
@@ -357,7 +358,6 @@ time {
 }
 #div_750 {
 	top:50px;
-	z-index:-100;
 
 }
 #section_756 {
@@ -475,6 +475,7 @@ img {
 }
 a {
 	color:#2c2c2c;
+	margin:7;
 
 }
 hr {
@@ -485,6 +486,7 @@ article {
 }
 li {
 	float:initial;
+	margin:7px;
 
 }
 div {
