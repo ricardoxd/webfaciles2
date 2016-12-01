@@ -130,7 +130,7 @@ time {
 }
 #div_750 {
 	background-color:#ffffff;
-	height:100vh;
+	min-height:100vh;
 	min-width:700px;
 
 }
@@ -460,6 +460,7 @@ time {
 
 }
 #div_748 {
+	z-index:3;
 	position:fixed;
 	width:100%;
 	height:50px;
@@ -468,7 +469,6 @@ time {
 #div_750 {
 	width:100%;
 	min-width:42%;
-	z-index:-5;
 	top:50px;
 
 }
