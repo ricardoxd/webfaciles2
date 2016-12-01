@@ -473,7 +473,8 @@ time {
 
 }
 #section_756 {
-	width:50px;
+	width:100%;
+	min-width:100%;
 
 }
 #label_786 {
