@@ -360,15 +360,18 @@ time {
 
 }
 #div_750 {
+	min-width:90%;
 	width:100%;
-	top:50px;
+	padding-top:50px;
 
 }
 #section_756 {
+	width:100%;
 	min-width:90%;
 
 }
 #label_786 {
+	width:40px;
 	display:block;
 
 }
@@ -602,6 +605,7 @@ time {
 
 }
 #label_786 {
+	width:40px;
 	display:block;
 	left:7px;
 	top:-7px;
@@ -651,7 +655,7 @@ time {
 #img_808 {
 	position:fixed;
 	top:0px;
-	left:45%;
+	left:44%;
 
 }
 .escritorio {
